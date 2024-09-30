@@ -39,7 +39,7 @@ tests:
                 events from the overall PipelineRun execution time is at 0% instead of 95% or greater.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/scheduling-overhead.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/scheduling-overhead.md
 
   - interval: 1m
     input_series:
@@ -75,7 +75,7 @@ tests:
                 events from the overall PipelineRun execution time is at 50% instead of 95% or greater.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/scheduling-overhead.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/scheduling-overhead.md
 
   - interval: 1m
     input_series:
@@ -134,7 +134,7 @@ tests:
                 underlying TaskRuns from the overall PipelineRun execution time is at 0% instead of 95% or greater.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/execution-overhead.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/execution-overhead.md
 
   - interval: 1m
     input_series:
@@ -174,7 +174,7 @@ tests:
                 underlying TaskRuns from the overall PipelineRun execution time is at 94.74% instead of 95% or greater.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/execution-overhead.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/execution-overhead.md
 
   - interval: 1m
     input_series:
@@ -233,7 +233,7 @@ tests:
                 Tekton chains controller on cluster cluster01 performance appears degraded with client latency 33.33%.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/chains-performance.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/chains-performance.md
 
   - interval: 1m
     input_series:
@@ -373,7 +373,7 @@ tests:
                 Tekton PAC controller on cluster cluster01 performance appears degraded with client latency 33.33%.
               alert_team_handle: <!subteam^S04PYECHCCU>
               team: pipelines
-              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/slos/pac-performance.md
+              runbook_url: https://gitlab.cee.redhat.com/konflux/docs/sop/-/blob/main/pipeline-service/pipeline-dev-only-alerts/pac-performance.md
 
   - interval: 1m
     input_series:
