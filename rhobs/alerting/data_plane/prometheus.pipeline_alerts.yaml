@@ -17,8 +17,8 @@ spec:
             < 0.95
           for: 12h
           labels:
-            severity: critical
-            slo: "true"
+            severity: normal
+            slo: "false"
           annotations:
             summary: >-
               Tekton has a scheduling overhead vs. PipelineRun durations of <95%
@@ -36,8 +36,8 @@ spec:
             < 0.95
           for: 12h
           labels:
-            severity: critical
-            slo: "true"
+            severity: normal
+            slo: "false"
           annotations:
             summary: >-
               Tekton has a execution overhead vs. PipelineRun durations of <95%

@@ -28,8 +28,8 @@ tests:
         alertname: HighSchedulingOverhead
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-
@@ -64,8 +64,8 @@ tests:
         alertname: HighSchedulingOverhead
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-
@@ -123,8 +123,8 @@ tests:
         alertname: HighExecutionOverhead
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-
@@ -163,8 +163,8 @@ tests:
         alertname: HighExecutionOverhead
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-
