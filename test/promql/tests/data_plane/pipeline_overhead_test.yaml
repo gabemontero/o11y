@@ -25,8 +25,8 @@ tests:
         alertname: ChainsControllerPerformance
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-
@@ -165,8 +165,8 @@ tests:
         alertname: PACControllerPerformance
         exp_alerts:
           - exp_labels:
-              severity: critical
-              slo: "true"
+              severity: normal
+              slo: "false"
               source_cluster: cluster01
             exp_annotations:
               summary: >-

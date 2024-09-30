@@ -98,8 +98,8 @@ spec:
             < 0.50
           for: 75m
           labels:
-            severity: critical
-            slo: "true"
+            severity: normal
+            slo: "false"
           annotations:
             summary: >-
               Tekton chains controller performance appears degraded with uncommonly high client latency.
@@ -172,8 +172,8 @@ spec:
             < 0.50
           for: 75m
           labels:
-            severity: critical
-            slo: "true"
+            severity: normal
+            slo: "false"
           annotations:
             summary: >-
               Tekton PAC controller performance appears degraded with uncommonly high client latency.
